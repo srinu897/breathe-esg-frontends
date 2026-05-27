@@ -9,7 +9,8 @@ function Sidebar() {
     padding: "14px",
     borderRadius: "10px",
     marginBottom: "12px",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    transition: "0.3s"
   };
 
   return (
@@ -19,7 +20,8 @@ function Sidebar() {
         width: "260px",
         minHeight: "100vh",
         background: "#0f172a",
-        padding: "20px"
+        padding: "20px",
+        boxShadow: "4px 0 12px rgba(0,0,0,0.2)"
       }}
     >
 
@@ -34,7 +36,7 @@ function Sidebar() {
       </h2>
 
       <Link
-        to="/"
+        to="/dashboard"
         style={{
           ...menuStyle,
           background: "#2563eb"
@@ -74,6 +76,7 @@ function Sidebar() {
       </Link>
 
     </div>
+
   );
 }
 
