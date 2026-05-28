@@ -11,7 +11,7 @@ function Navbar() {
   const openAdmin = () => {
 
     window.open(
-      "https://breathe-esg-platform-9emn.onrender.com/admin/",
+      "https://breathe-esg-platform-1-we6n.onrender.com/admin/",
       "_blank"
     );
 
