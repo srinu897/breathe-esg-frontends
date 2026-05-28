@@ -6,11 +6,11 @@
   "engines": {
     "node": "22"
   },
-  "scripts": {
-    "dev": "vite",
-    "build": "node node_modules/vite/bin/vite.js build",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "dev": "node node_modules/vite/bin/vite.js",
+  "build": "node node_modules/vite/bin/vite.js build",
+  "preview": "node node_modules/vite/bin/vite.js preview"
+},
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
