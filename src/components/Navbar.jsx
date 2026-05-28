@@ -11,7 +11,7 @@ function Navbar() {
   const openAdmin = () => {
 
     window.open(
-      "http://127.0.0.1:8000/admin/",
+      "https://breathe-esg-platform-9emn.onrender.com/admin/",
       "_blank"
     );
 

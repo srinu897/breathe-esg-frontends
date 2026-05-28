@@ -45,7 +45,7 @@ function Dashboard() {
 
       const response =
         await axios.get(
-          "http://127.0.0.1:8000/api/activities/dashboard/stats/"
+          "https://breathe-esg-platform-9emn.onrender.com/api/activities/dashboard/stats/"
         );
 
       setStats(
